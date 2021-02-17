@@ -1,0 +1,21 @@
+* {box-sizing:border-box;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  max-width: 1170px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: grid;
+  grid-template:
+      "... ....... ....... ....... ....... ....... ..."
+      "... header  header  header  header  header  ..." 
+      "... ....... ....... ....... ....... ....... ..."
+      "... .top    .top    .top    .top    .top    ..." 
+      "... #music  #music  #music  #music  #music  ..."
+      "... #Port   #Port   #Port   #Port   #Port   ..."
+      "... #Tshirt #Tshirt #Tshirt #Tshirt #Tshirt ..."
+      "... #words  #words  #words  #words  #words  ..."
+      "... footer  footer  footer  footer  footer  ..." 
+}
+
